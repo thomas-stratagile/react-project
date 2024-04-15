@@ -3,7 +3,7 @@ import React from 'react'
 const Card = () => {
     return (
 
-        <div className='w-[300px] border rounded-md'>
+        <div className='lg:w-[300px] border rounded-md mt-5 w-full'>
             <div>
                 <img className='h-[300px] w-full rounded-md' src="./watch.png" alt="" />
             </div>

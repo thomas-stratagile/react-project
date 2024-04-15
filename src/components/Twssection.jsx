@@ -8,8 +8,8 @@ const Twssection = () => {
 
                 <div className='lg:w-1/2 w-full lg:p-10'>
 
-                    <h1 className='lg:text-8xl lg:text-left text-center text-4xl lg:px-0 px-5 text-thin'>True Wireless <span className='font-bold'>Earbuds</span></h1>
-                    <h4 className='lg:text-4xl mt-3 lg:text-left text-center '>Starting from <span className='font-bold'>₹999*</span></h4>  
+                    <h1 className='lg:text-7xl lg:text-left text-center text-4xl lg:px-0 px-10 text-thin'>True Wireless <span className='font-bold'>Earbuds</span></h1>
+                    <h4 className='lg:text-4xl mt-3 lg:text-left text-center '>Starting from <span className='font-bold'>₹999*</span></h4>
 
                     <div className='flex mt-4 lg:mt-7 bg-black lg:mx-0 mx-auto lg:w-40 w-36 text-white justify-evenly p-1 rounded-lg items-center'>
                         <button className='font-bold'>Shop products</button>

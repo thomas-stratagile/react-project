@@ -1,9 +1,12 @@
-import Footer from "./components/Footer"
+import Card from "./components/Card"
+import Navbar from "./components/Navbar"
+import Twssection from "./components/Twssection"
 
 const App = () => {
   return (
     <div>
-      <Footer/>
+      <Navbar />
+      <Twssection />
     </div>
   )
 }

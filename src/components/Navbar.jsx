@@ -16,7 +16,7 @@ const Navbar = () => {
                         <div onClick={handleNavToggle} className="w-10 lg:hidden cursor-pointer">
                             <img className="w-full" src="./hamburger-icon.png" alt="menu" />
                         </div>
-                        <div>
+                        <div className='w-20'>
                             <img className="w-full" src="./boat-logo.png" alt="img" />
                         </div>
                     </div>

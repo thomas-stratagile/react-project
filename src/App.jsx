@@ -1,7 +1,9 @@
+import Footer from "./components/Footer"
+
 const App = () => {
   return (
     <div>
-      <h1>hai</h1>
+      <Footer/>
     </div>
   )
 }

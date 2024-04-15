@@ -7,7 +7,7 @@ function Footer() {
         <div className="col-md-3">
           <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/boAt_logo.svg" alt="" />
           <h3 className="text-3xl font-semibold pt-3">Subscribe to our email<br /> alerts!</h3>
-          <div className='bg-white lg:h-12 lg:w-96 w-76 p-3 lg:mt-5 mb-8 rounded-md'>
+          <div className='bg-white lg:h-12 lg:w-96 w-76 p-3 lg:mt-5 mb-8 rounded-md mt-10'>
             <input className='text-black   outline-none' type='text' placeholder='Enter your email address' />
             <button className='w-6 h-6 rounded-md border-white float-end flex justify-center items-center' type='submit' style={{border:"1px solid #929ba2",borderRadius:"50%"}}>
               <span><i class="fa-solid fa-angle-right fa-sm"></i></span>

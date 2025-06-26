@@ -23,7 +23,7 @@ const products = [
     productLink: '#product-airdopes-131'
   },
   {
-    imageSrc: './bag-icon.svg', // Placeholder, ideally a product image
+    imageSrc: './watch.png', // Placeholder, ideally a product image
     altText: 'Audio Product 3',
     tagline: 'New Arrival',
     productName: 'boAt Rockerz 450',
@@ -33,7 +33,7 @@ const products = [
     productLink: '#product-rockerz-450'
   },
   {
-    imageSrc: './user-icon.png', // Placeholder, ideally a product image
+    imageSrc: './twshome.png', // Placeholder, ideally a product image
     altText: 'Audio Product 4',
     tagline: 'Best Seller',
     productName: 'boAt Stone 180',

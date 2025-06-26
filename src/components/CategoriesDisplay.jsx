@@ -15,13 +15,13 @@ const categories = [
   },
   {
     name: 'Neckbands',
-    imageSrc: './boat-logo.png', // Placeholder - ideally a neckband image
-    altText: 'Neckband Earphones',
+    imageSrc: './twshome.png', // Placeholder - ideally a neckband image
+    altText: 'twshome.png',
     link: '#category-neckbands'
   },
   {
     name: 'Speakers',
-    imageSrc: './vite.svg', // Placeholder - ideally a speaker image
+    imageSrc: './watch.png', // Placeholder - ideally a speaker image
     altText: 'Bluetooth Speakers',
     link: '#category-speakers'
   }

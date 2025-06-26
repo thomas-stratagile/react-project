@@ -1,16 +1,29 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Navbar = () => {
     const [navOpen, setNavOpen] = useState(false);
 
     const handleNavToggle = () => {
-        setNavOpen(!navOpen)
+        setNavOpen(!navOpen);
     };
+
+    // Effect to handle body scroll lock
+    useEffect(() => {
+        if (navOpen) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'unset';
+        }
+        // Cleanup function to reset overflow when component unmounts
+        return () => {
+            document.body.style.overflow = 'unset';
+        };
+    }, [navOpen]);
 
     return (
         <>
             {/* Desktop Navbar */}
-            <div className="sticky top-0 left-0 z-10 w-full bg-white flex justify-between items-center shadow-lg px-5 py-5 lg:px-10 lg:py-6">
+            <div className="sticky top-0 left-0 z-20 w-full bg-white flex justify-between items-center shadow-lg px-4 py-4 sm:px-6 lg:px-10 lg:py-5"> {/* Adjusted z-index and padding */}
                 <div className="flex justify-between items-center">
                     <div className="w-28 flex items-center gap-4">
                         <div onClick={handleNavToggle} className="w-10 lg:hidden cursor-pointer">
@@ -29,9 +42,9 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="flex items-center gap-5">
-                    <div className="hidden lg:flex items-center bg-gray-200 rounded-full px-3 py-1">
-                        <img className="w-4" src="./search-icon.png" alt="" />
-                        <input className="outline-none bg-transparent px-2 placeholder:text-black" type="text" placeholder="Search Earphones" />
+                    <div className="hidden lg:flex items-center bg-gray-100 rounded-full px-3 py-1.5"> {/* Slightly adjusted padding and bg color */}
+                        <img className="w-4 h-4 text-gray-500" src="./search-icon.png" alt="Search" /> {/* Added alt text */}
+                        <input className="outline-none bg-transparent px-2 text-sm text-gray-700 placeholder-gray-500" type="text" placeholder="Search Earphones" />
                     </div>
                     <div className="flex items-center gap-4">
                         <img className="w-5 lg:hidden" src="./search-icon.png" alt="" />

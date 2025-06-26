@@ -1,15 +1,10 @@
-import Navbar from "./components/Navbar"
-import Twssection from "./components/Twssection"
-import Footer from "./components/Footer"
+import React from 'react';
+import Home from './pages/Home';
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-      <Twssection />
-      <Footer/>
-    </div>
-  )
-}
+    <Home />
+  );
+};
 
-export default App
+export default App;
